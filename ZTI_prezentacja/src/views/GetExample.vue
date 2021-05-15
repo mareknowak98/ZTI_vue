@@ -1,10 +1,10 @@
 <template>
   <b-jumbotron class="jumbotron jumbotron-home">
     <b-jumbotron header="Vue.js demo" lead="Example 1 GET request">
-
-      <b-button variant="primary" v-on:click='getAllData()'>I,ieniny na świecie</b-button>
+      <navbar></navbar>
+      
+      <b-button variant="primary" v-on:click='getAllData()'>Imieniny na świecie</b-button>
       <b-button variant="primary" v-on:click='getCountryData("pl")'>Imieniny w polsce</b-button>
-      <b-button variant="secondary" v-on:click='$router.push("/PostExample")'>Przykład 2</b-button>
 
       <template>
         <div v-if="!Object.keys(nameDays).length == 0">
@@ -18,8 +18,10 @@
 
 <script>
 import axios from "axios";
+import Navbar from "../components/Navbar.vue";
 
 export default {
+  components: { Navbar },
   name: "HelloWorld",
   data() {
     return {

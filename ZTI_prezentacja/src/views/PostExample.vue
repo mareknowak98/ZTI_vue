@@ -1,8 +1,7 @@
 <template>
   <b-jumbotron class="jumbotron jumbotron-home">
     <b-jumbotron header="Vue.js demo" lead="Example 2 POST request">
-    <b-button variant="secondary" v-on:click='$router.push("/")'>Przykład 1</b-button>
-    <hr/>
+    <navbar></navbar>
 
   
     <b-form @submit.prevent="regiter">
@@ -59,8 +58,10 @@
 
 <script>
 import axios from "axios";
+import Navbar from "../components/Navbar.vue";
 
 export default {
+  components: { Navbar },
   name: "PostExample",
   data() {
     return {
@@ -69,7 +70,7 @@ export default {
         email: '',
         password1: '',
       },
-      resp: 'aaa'
+      resp: ''
     };
   },
 
