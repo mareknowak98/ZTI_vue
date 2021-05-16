@@ -28,7 +28,7 @@
         description="We'll use this email to activate your account"
       >
         <b-form-input
-          id="input-1"
+          id="input-2"
           v-model="form.email"
           type="email"
           required
@@ -38,7 +38,7 @@
 
       <b-form-group id="input-group-3" label="Password:" label-for="input-3">
         <b-form-input
-          id="input-1"
+          id="input-3"
           v-model="form.password1"
           type="password"
           required

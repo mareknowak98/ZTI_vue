@@ -27,5 +27,16 @@ methods: {
     console.log("store the like");
     }
 }
+
 }
 </script>
+
+<style scoped>
+
+.jumbotron-home{
+    margin: auto;
+    padding: auto;
+    max-width: 1400px;
+    min-height: 1000px;
+}
+</style>
