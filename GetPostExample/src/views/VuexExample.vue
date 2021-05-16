@@ -1,6 +1,6 @@
 <template>
   <b-jumbotron class="jumbotron jumbotron-home">
-    <b-jumbotron header="Vue.js demo" lead="Example 3 Vuex">
+    <b-jumbotron header="Vue.js demo" lead="Example 4 Vuex">
       <navbar></navbar>
       {{ $store.state.counter }}
     <hr/>
