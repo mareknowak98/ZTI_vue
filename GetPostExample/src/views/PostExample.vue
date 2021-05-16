@@ -49,7 +49,6 @@
       <b-button type="submit" variant="primary">Submit</b-button>
 
 
-
     </b-form>
     </b-jumbotron>
   </b-jumbotron>
@@ -63,6 +62,7 @@ import Navbar from "../components/Navbar.vue";
 export default {
   components: { Navbar },
   name: "PostExample",
+  
   data() {
     return {
       form: {
@@ -87,10 +87,6 @@ export default {
       };
       axios.request(options)
       .then(response => this.resp = response)
-      .then(
-        console.log(this.resp),
-        console.log(this.resp.data)
-      )
       .catch(err => console.log(err))
       },
     

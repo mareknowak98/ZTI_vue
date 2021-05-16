@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import PostExample from "../views/PostExample.vue";
 import GetExample from "../views/GetExample.vue";
+import VuexExample from "../views/VuexExample.vue";
 
 Vue.use(VueRouter);
 
@@ -14,6 +15,12 @@ const routes = [{
         path: "/PostExample",
         name: "PostExample",
         component: PostExample,
+
+    },
+    {
+        path: "/VuexExample",
+        name: "VuexExample",
+        component: VuexExample,
 
     },
 ];
