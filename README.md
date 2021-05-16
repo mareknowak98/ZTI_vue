@@ -1,4 +1,19 @@
 # Prezentacja "Frameworki JavaScript - Vue" - przykłady
+Uruchomienie przykładów wymaga zainstaloanego node.js, npm oraz Vue CLI.
+## Node.js
+```
+sudo apt install nodejs
+```
+
+## npm
+```
+sudo apt install npm
+```
+
+## Vue CLI
+```
+npm install -g @vue/cli
+```
 
 ## Project setup
 ```
