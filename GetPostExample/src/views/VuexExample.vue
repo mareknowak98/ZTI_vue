@@ -8,8 +8,8 @@
       <sup>2</sup> = 
       {{ $store.getters.counterSquared }}
     <hr/>
-    <b-button variant="danger" v-on:click="$store.commit('increaseCounter')">Button</b-button>
-    <b-button variant="success" v-on:click="$store.commit('decreaseCounter')">Button</b-button>
+    <b-button variant="success" v-on:click="$store.commit('increaseCounter')">Button</b-button>
+    <b-button variant="danger" v-on:click="$store.commit('decreaseCounter')">Button</b-button>
 
     </b-jumbotron>
   </b-jumbotron>

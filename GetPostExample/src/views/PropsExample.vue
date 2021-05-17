@@ -1,6 +1,6 @@
 <template>
   <b-jumbotron class="jumbotron jumbotron-home">
-    <b-jumbotron header="Vue.js demo" lead="Example 3 propss">
+    <b-jumbotron header="Vue.js demo" lead="Example 3 props">
         <div id="app">
             <navbar/>
             <custom-button title="Like" :handleClick="likeClickHandel"></custom-button>
